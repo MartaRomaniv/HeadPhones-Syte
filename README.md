@@ -1,4 +1,4 @@
-# Web_second_task
+# HeadPhones Syte
 
 This is my second web application
 Project description:
