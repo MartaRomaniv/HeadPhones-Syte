@@ -1,5 +1,7 @@
 # HeadPhones Syte
 
+this is going to be an internet shop website, where you will be able to find any headphones of your choice:)
+
 This is my second web application
 Project description:
 Using DB persistence layer;
