@@ -1,0 +1,376 @@
+.header {
+  height: 100px;
+
+}
+
+.emblem {
+  margin-top: 23px;
+  text-align: center;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+input {
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EAEAEA;
+  height: 45px;
+  width: 365px;
+  display: block;
+  outline: none;
+}
+
+.top-margin {
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+.phone-num {
+  margin-top: 20px;
+}
+
+.black-back {
+  background-color: black;
+}
+
+.pagination {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.list {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Lucida Console;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li.navigation {
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+li.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page.active a {
+  color: red;
+  text-decoration: none;
+}
+
+li.navigation a:hover {
+  color: #2FDE2F;
+  text-decoration: none;
+}
+
+.list li {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about-comp {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-headers {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+iframe {
+  border: 0;
+  width: 400px;
+  height: 400px;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.side-margin {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.cont-mar-top {
+  margin-top: 50px;
+}
+
+.img-goods {
+  cursor: pointer;
+  width: auto;
+  height: 250px;
+  display: block;
+}
+
+.img-basket {
+  cursor: pointer;
+  width: auto;
+  height: 100px;
+  display: block;
+}
+
+.img-order-details {
+  width: auto;
+  height: 50px;
+  display: block;
+}
+
+.price-basket {
+  margin-right: 0 !important;
+}
+
+.total-price {
+  float: right;
+  font-size: xx-large;
+}
+
+.container {
+  padding: 10px;
+}
+
+.goods-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.cart-count {
+  color: red;
+  font-size: small;
+  vertical-align: top;
+}
+
+.container-fluid {
+  height: auto;
+}
+
+.price-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.goods-price {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #2FDE2F;
+}
+
+.old-price {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: RED;
+  text-decoration: line-through;
+}
+
+.profile-container {
+  margin: auto;
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.profile-logo {
+  max-width: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history-table {
+  width: 100%;
+  text-align: center;
+}
+
+.history-table-row {
+  border-top: thin solid;
+}
+
+.details-img {
+  max-width: 25px;
+  height: auto;
+  cursor: pointer;
+}
+
+/*Authorization*/
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  padding: 16px;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=textarea],
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  resize: none !important;
+  border-radius: 25px;
+}
+
+.auth-cont-marg {
+  margin: 0;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.auth-column {
+  margin: auto;
+}
+
+/*Sign Up*/
+
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=textarea]:focus,
+input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  overflow: auto;
+  /* Enable scroll if needed */
+  z-index: 1;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.button-margins {
+  margin-top: 5px;
+}
+
+/*----------------------------------------------------------*/
+
+.discount {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0 3px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  background: #ff6767;
+  color: #fff;
+}
+
+/*pop up discount*/
+
+.inline-element {
+  display: inline-block;
+}
+
+.answer-modal {
+  margin: 0;
+  position: relative;
+  margin-top: -100px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* The Modal (background) */
+.modal-discount {
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-discount {
+  text-align: center;
+  background-color: #fefefe;
+  padding: 20px;
+  border: 1px solid #888;
+  margin: auto;
+  margin-top: 200px;
+}
+
+/* The Close Button */
+.close-discount {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-discount:hover,
+.close-discount:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
