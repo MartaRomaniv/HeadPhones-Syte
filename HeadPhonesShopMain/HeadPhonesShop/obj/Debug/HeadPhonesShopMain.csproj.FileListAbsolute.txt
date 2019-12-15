@@ -1,0 +1,73 @@
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\WebApplication1.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\WebApplication1.pdb
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.exe
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.exe.config
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.rsp
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csi.exe
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csi.rsp
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.AppContext.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.exe
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.exe.config
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.rsp
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.dll.config
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.pdb
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\Newtonsoft.Json.dll
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\rburtnyk\Documents\Visual Studio 2017\Projects\HeadPhonesShopMain\HeadPhonesShop\bin\Newtonsoft.Json.xml
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.exe
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.exe.config
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csc.rsp
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csi.exe
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\csi.rsp
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.AppContext.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.exe
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.exe.config
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\vbc.rsp
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.dll.config
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\WebApplication1.pdb
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\Newtonsoft.Json.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\bin\Newtonsoft.Json.xml
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\HeadPhonesShopMain.csprojAssemblyReference.cache
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\HeadPhonesShopMain.csproj.CoreCompileInputs.cache
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\HeadPhonesShopMain.csproj.CopyComplete
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\WebApplication1.dll
+C:\Users\svato\Desktop\HeadPhonesShopMain\HeadPhonesShop\obj\Debug\WebApplication1.pdb
