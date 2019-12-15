@@ -61,53 +61,50 @@
 
 	<div class="container">
 		<div class="row">
+			<button type="button" ng-click="my.showCreateMailingModal = true;" class="btn btn-success btn-block">Додати
+				розсилку</button>
+		</div>
+		<div class="row">
 			<div class="col-md-10 side-margin">
 				<table class="history-table">
 					<tbody>
 						<th></th>
 						<th>
-							Order Number
-						</th>
-						<th ng-if="my.isAdmin">
-							Username
+							Mailing Id
 						</th>
 						<th>
-							Order Price
+							Name
 						</th>
 						<th>
-							Status
+							Users Count
 						</th>
 						<th>
-							Order date
+							Create User
 						</th>
-						<th></th>
-						<tr ng-repeat="element in my.orders" class="history-table-row">
+						<th>
+							Order Date
+						</th>
+						<tr ng-repeat="element in my.mailings" class="history-table-row">
 							<td>
-								<img class="details-img" ng-click="getProductsByOrder(element.Id)"
+								<img class="details-img" ng-click="showMailDetails(element.Mail)"
 									ng-src="css\images\details.png"></img>
 							</td>
 							<td>
 								<label class="goods-name">{{element.Id}}</label>
 							</td>
-							<td ng-if="my.isAdmin">
-								<label class="goods-name">{{element.User}}</label>
+							<td>
+								<label class="goods-name">{{element.Name}}</label>
 							</td>
 							<td>
-								<label class="goods-name">{{element.TotalPrice.toFixed(2)}} грн</label>
+								<label class="goods-name inline-element">{{element.UsersCount}}</label>
+								<img class="details-img" ng-click="getUsersByMailingId(element.Id)"
+									ng-src="css\images\profile.png"></img>
 							</td>
 							<td>
-								<label class="goods-name">{{element.Status}}</label>
+								<label class="goods-name">{{element.CreateUser}}</label>
 							</td>
 							<td>
 								<label class="goods-name">{{element.CreateDate}}</label>
-							</td>
-							<td>
-								<button ng-if="element.Status=='New'" type="button"
-									ng-click="changeOrderStatus(element.Id,'Canceled')"
-									class="btn btn-danger btn-block">Анулювати</button>
-								<button ng-if="element.Status=='New' && my.isAdmin" type="button"
-									ng-click="changeOrderStatus(element.Id,'Approved')"
-									class="btn btn-success btn-block">Підтвердити</button>
 							</td>
 						</tr>
 					</tbody>
@@ -115,44 +112,71 @@
 
 			</div>
 		</div>
-		<div class="row" ng-show="my.paginationPages > 1">
-			<ul id="pagination-demo" class="pagination-lg pull-right pagination"></ul>
+	</div>
+
+	<div ng-if="my.showMailingDetailsModal" class="modal-discount container-fluid">
+		<span ng-click="my.showMailingDetailsModal = false;" class="close-discount">&times;</span>
+		<div class="row answer-modal">
+			<div class="col-md-8 modal-content-discount">
+				<div ng-bind-html="my.mailingHTML">
+				</div>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="my.showMailingDetailsModal = false;"
+						class="btn btn-primary btn-block">Закрити</button>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div ng-if="my.showOrderDetailsModal" class="modal-discount container-fluid">
-		<span ng-click="my.showOrderDetailsModal = false;" class="close-discount">&times;</span>
+	<div ng-if="my.showMailingUsersDetailsModal" class="modal-discount container-fluid">
+		<span ng-click="my.showMailingUsersDetailsModal = false;" class="close-discount">&times;</span>
 		<div class="row answer-modal">
-			<div class="col-md-10 modal-content-discount">
-				<div class="row">
-					<div class="col-md-10 side-margin" ng-repeat="element in my.goods">
-						<div class="row">
-							<div class="col-md-2">
-								<span ng-if="element.Discount>0"
-									class="discount"><span>{{element.Discount}}</span>%</span>
-								<img ng-src="{{element.Url}}" class="img-order-details center-img">
-							</div>
-							<div class="col-md-5">
-								<label class="goods-name">{{element.Name}}</label>
-							</div>
-							<div class="col-md-3">
-								<div class="row button-margins">
-									<div class="price-container goods-price price-basket">
-										<label ng-if="element.Discount != 0" class="old-price">{{element.Price}}
-											грн</label>
-										<label
-											class="goods-price">{{(element.Discount!=0?element.Price*(100-element.Discount)/100:element.Price).toFixed(2)}}
-											грн</label>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 answer-button">
-					<button type="button" ng-click="my.showOrderDetailsModal = false;"
+			<div class="col-md-8 modal-content-discount">
+				<table class="history-table">
+					<tbody>
+						<th>
+							First Name
+						</th>
+						<th>
+							Last Name
+						</th>
+						<th>
+							Email
+						</th>
+						<tr ng-repeat="element in my.mailingUsers" class="history-table-row">
+							<td>
+								<label class="goods-name">{{element.FirstName}}</label>
+							</td>
+							<td>
+								<label class="goods-name">{{element.LastName}}</label>
+							</td>
+							<td>
+								<label class="goods-name">{{element.Email}}</label>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="my.showMailingUsersDetailsModal = false;"
 						class="btn btn-primary btn-block">Закрити</button>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-if="my.showCreateMailingModal" class="modal-discount container-fluid">
+		<span ng-click="my.showCreateMailingModal = false;" class="close-discount">&times;</span>
+		<div class="row">
+			<div class="col-md-8 modal-content-discount">
+				<form ng-submit="createMailing()">
+					<input type="text" ng-model="my.mailingName" name="mailing-name" placeholder="Впишіть назву"
+						required>
+					<textarea ng-model="my.mailingHTML" name="mailing-html" rows="10"
+						placeholder="Впишіть HTML код мейлу" required></textarea>
+					<button type="submit" class="btn btn-success btn-block">Додати розсилку</button>
+					<button ng-click="my.showCreateMailingModal = false;" type="button"
+						class="btn btn-danger btn-block">Скасувати</button>
+				</form>
 			</div>
 		</div>
 	</div>

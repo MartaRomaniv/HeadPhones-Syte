@@ -4,10 +4,130 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HeadPhones</title>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.twbsPagination.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 
 <body ng-app="myApp" ng-controller="MyCtrl as my">
+	<div class="container-fluid header">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+				<p class="emblem">HeadPhones.com</p>
+			</div>
+			<div class="col-md-4">
+				<input ng-show="my.mainPage" id="search" type="search" class="top-margin" name="search"
+					placeholder="Пошук товарів . . ." ng-model="my.userSearch">
+			</div>
+			<div class="col-md-3">
+				<p class="phone-num">+38 (097) 377 93 33<br>marta.romaniv0707@gmail.com</p>
+			</div>
+			<div class="col-md-1 profile-container">
+				<div ng-if="my.tokenVerified">
+					<div ng-if="my.isLogedIn">
+						<img src="css\images\profile.png" title="{{my.userName}}" class="profile-logo"></img>
+						<button ng-click="logout()" type="button" class="btn btn-danger btn-block">Logout</button>
+					</div>
+					<div ng-if="!my.isLogedIn">
+						<button type="button" onclick="window.location = 'authorization.html';"
+							class="btn btn-info btn-block">Login</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid black-back">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<ul class="list">
+					<li class="navigation"><a href="index.html">Каталог товарів</a></li>
+					<li class="navigation"><a href="about.html">Про Магазин</a></li>
+					<li class="navigation"><a href="contacts.html">Контакти</a></li>
+					<li class="navigation" ng-if="!my.isAdmin"><a href="basket.html">Корзина <span
+								class="cart-count">{{my.cartIds.length>0?my.cartIds.length:''}}</span></a></li>
+					<li class="navigation" ng-if="my.isLogedIn"><a href="history.html">Історія покупок</a></li>
+					<li class="navigation" ng-if="my.isAdmin"><a href="mailing.html">Розсилка</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="about-comp">Про магазин</h1>
+				<hr>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="about-headers">Заголовок 1 рівня</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="about-headers">Заголовок 2 рівня</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="about-headers">Заголовок 3 рівня</h3>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col-md-12">
+				<img class="center-img" src="css/images/man.jpg">
+			</div>
+		</div>
+
+	</div>
 
 </body>
 

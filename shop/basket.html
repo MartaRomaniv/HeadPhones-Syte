@@ -4,10 +4,174 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HeadPhones</title>
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.twbsPagination.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
 </head>
 
 
 <body ng-app="myApp" ng-controller="MyCtrl as my">
+	<div class="container-fluid header">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+				<p class="emblem">HeadPhones.com</p>
+			</div>
+			<div class="col-md-4">
+				<input ng-show="my.mainPage" id="search" type="search" class="top-margin" name="search"
+					placeholder="Пошук товарів . . ." ng-model="my.userSearch">
+			</div>
+			<div class="col-md-3">
+				<p class="phone-num">+38 (097) 377 93 33<br>marta.romaniv0707@gmail.com</p>
+			</div>
+			<div class="col-md-1 profile-container">
+				<div ng-if="my.tokenVerified">
+					<div ng-if="my.isLogedIn">
+						<img src="css\images\profile.png" title="{{my.userName}}" class="profile-logo"></img>
+						<button ng-click="logout()" type="button" class="btn btn-danger btn-block">Logout</button>
+					</div>
+					<div ng-if="!my.isLogedIn">
+						<button type="button" onclick="window.location = 'authorization.html';"
+							class="btn btn-info btn-block">Login</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid black-back">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<ul class="list">
+					<li class="navigation"><a href="index.html">Каталог товарів</a></li>
+					<li class="navigation"><a href="about.html">Про Магазин</a></li>
+					<li class="navigation"><a href="contacts.html">Контакти</a></li>
+					<li class="navigation" ng-if="!my.isAdmin"><a href="basket.html">Корзина <span
+								class="cart-count">{{my.cartIds.length>0?my.cartIds.length:''}}</span></a></li>
+					<li class="navigation" ng-if="my.isLogedIn"><a href="history.html">Історія покупок</a></li>
+					<li class="navigation" ng-if="my.isAdmin"><a href="mailing.html">Розсилка</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10 side-margin" ng-repeat="element in my.goods">
+				<div class="row">
+					<div class="col-md-2">
+						<span ng-if="element.Discount>0" class="discount"><span>{{element.Discount}}</span>%</span>
+						<img ng-src="{{element.Url}}" ng-click="showProductDetailsModal(element.Id)"
+							class="img-basket center-img">
+					</div>
+					<div class="col-md-5">
+						<label class="goods-name">{{element.Name}}</label>
+					</div>
+					<div class="col-md-3">
+						<div class="row button-margins">
+							<div class="price-container goods-price price-basket">
+								<label ng-if="element.Discount != 0" class="old-price">{{element.Price}} грн</label>
+								<label
+									class="goods-price">{{(element.Discount!=0?element.Price*(100-element.Discount)/100:element.Price).toFixed(2)}}
+									грн</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<button type="button" ng-click="showRemoveBasketProductModal($index)"
+							class="btn btn-danger btn-block">Видалити</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 side-margin">
+				<span class="total-price"><b>Total Price: {{my.basketTotal}} грн</b></span>
+			</div>
+		</div>
+
+		<div ng-if="my.basketTotal != 0" class="row">
+			<div class="col-md-10 side-margin">
+				<div ng-if="my.isLogedIn">
+					<button ng-click="my.showCreateOrderModal = true;" type="button"
+						class="btn btn-success btn-block">Create
+						Order</button>
+				</div>
+				<div ng-if="!my.isLogedIn">
+					<button type="button" onclick="window.location = 'authorization.html';"
+						class="btn btn-info btn-block">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-if="my.showRemoveProductModal" class="modal-discount container-fluid">
+		<span ng-click="my.showRemoveProductModal = false;" class="close-discount">&times;</span>
+		<div class="row answer-modal">
+			<div class="col-md-4 modal-content-discount">
+				<p>Чи Ви дійно хочете видалити даний продукт з корзини?</p>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="removeProductFromBasket()"
+						class="btn btn-danger btn-block">Так</button>
+				</div>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="my.showRemoveProductModal = false;"
+						class="btn btn-primary btn-block">Ні</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-if="my.showCreateOrderModal" class="modal-discount container-fluid">
+		<span ng-click="my.showCreateOrderModal = false;" class="close-discount">&times;</span>
+		<div class="row answer-modal">
+			<div class="col-md-4 modal-content-discount">
+				<p>Чи Ви дійно хочете cтворити дане замовлення?</p>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="my.showCreateOrderModal = false; createOrder()"
+						class="btn btn-success btn-block">Так</button>
+				</div>
+				<div class="col-md-4 inline-element">
+					<button type="button" ng-click="my.showCreateOrderModal = false;"
+						class="btn btn-primary btn-block">Ні</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-if="my.showProductDetailsModal" class="modal-discount container-fluid">
+		<span ng-click="my.showProductDetailsModal = false;" class="close-discount">&times;</span>
+		<div class="row answer-modal">
+			<div class="col-md-5 modal-content-discount">
+				<span ng-if="my.productDiscount>0" class="discount"><span>{{my.productDiscount}}</span>%</span>
+				<img ng-src="{{my.productUrl}}" class="img-goods center-img">
+				<label class="goods-name">{{my.productName}}</label>
+				<div class="price-container goods-price">
+					<label ng-if="my.productDiscount != 0" class="old-price">{{my.productPrice}} грн</label>
+					<label
+						class="goods-price">{{(my.productDiscount!=0?my.productPrice*(100-my.productDiscount)/100:my.productPrice).toFixed(2)}}
+						грн</label>
+				</div>
+				<p ng-bind-html="my.productDetails"></p>
+				<p>{{my.productDetails}}</p>
+				<div class="col-md-5 inline-element">
+					<button type="button" ng-click="addToCart(my.productId)" class="btn btn-success btn-block">Додати в
+						корзину</button>
+				</div>
+				<div class="col-md-5 inline-element">
+					<button type="button" ng-click="my.showProductDetailsModal = false;"
+						class="btn btn-primary btn-block">Закрити</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 </body>
 

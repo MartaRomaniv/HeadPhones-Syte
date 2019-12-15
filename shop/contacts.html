@@ -4,12 +4,89 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HeadPhones</title>
-	
+	<script type="text/javascript" src="js/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.twbsPagination.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 
 
 <body ng-app="myApp" ng-controller="MyCtrl as my">
-	
+	<div class="container-fluid header">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-3">
+				<p class="emblem">HeadPhones.com</p>
+			</div>
+			<div class="col-md-4">
+				<input ng-show="my.mainPage" id="search" type="search" class="top-margin" name="search"
+					placeholder="Пошук товарів . . ." ng-model="my.userSearch">
+			</div>
+			<div class="col-md-3">
+				<p class="phone-num">+38 (097) 377 93 33<br>marta.romaniv0707@gmail.com</p>
+			</div>
+			<div class="col-md-1 profile-container">
+				<div ng-if="my.tokenVerified">
+					<div ng-if="my.isLogedIn">
+						<img src="css\images\profile.png" title="{{my.userName}}" class="profile-logo"></img>
+						<button ng-click="logout()" type="button" class="btn btn-danger btn-block">Logout</button>
+					</div>
+					<div ng-if="!my.isLogedIn">
+						<button type="button" onclick="window.location = 'authorization.html';"
+							class="btn btn-info btn-block">Login</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid black-back">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<ul class="list">
+					<li class="navigation"><a href="index.html">Каталог товарів</a></li>
+					<li class="navigation"><a href="about.html">Про Магазин</a></li>
+					<li class="navigation"><a href="contacts.html">Контакти</a></li>
+					<li class="navigation" ng-if="!my.isAdmin"><a href="basket.html">Корзина <span
+								class="cart-count">{{my.cartIds.length>0?my.cartIds.length:''}}</span></a></li>
+					<li class="navigation" ng-if="my.isLogedIn"><a href="history.html">Історія покупок</a></li>
+					<li class="navigation" ng-if="my.isAdmin"><a href="mailing.html">Розсилка</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="about-comp">Контакти</h1>
+				<hr>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-7">
+				<p>Ви можете знайти нас за адресою: м. Львів, вул. Торгова, дім 123, офіс 456
+					<br> <br>
+					Телефон відділу продажів: +38 (097) 377 93 33
+					<br> <br>
+					Телефон бухгалтерії: +38 (097) 377 93 32
+					<br> <br>
+					Email: marta.romaniv0707@gmail.com
+					<br> <br>
+					Замовлення через сайт приймаються цілодобово!
+				</p>
+			</div>
+			<div class="col-md-5"><iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5146.108952813116!2d24.023906527815626!3d49.841433917583785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72087d4605%3A0x8ffc032d04e17a8b!2sSegway%20tour!5e0!3m2!1suk!2sua!4v1569355479191!5m2!1suk!2sua"></iframe>
+			</div>
+		</div>
+	</div>
+
 </body>
 
 </html>
