@@ -1,0 +1,60 @@
+﻿@model WebShop.ViewModels.Cart.CartIndexModel
+
+@{
+    ViewData["Title"] = "cart";
+}
+
+<h1 style="font-size: 45px; margin-bottom: 50px;">
+    Your Card
+</h1>
+
+@if (Model.CartItemsList.Any())
+{
+    <div class="cart_nav">
+        <div>
+            <a asp-controller="Product" asp-action="Index" class="back_btn btn">
+                <img class="back_btn_img" src="~/img/back_icon.svg" alt="Go Back" />
+            </a>
+            <form id="clear" method="post">
+                <input type="submit" id="btn_clear" class="btn" value="Clear">
+            </form>
+        </div>
+        <h2 id="total">
+            Total:
+            <span id="total_number">
+                @string.Format("{0:C}", Model.Total)
+            </span>
+        </h2>
+    </div>
+    <form id="cart" method="post">
+        <div class="cart_items">
+            @foreach (var cartItem in Model.CartItemsList)
+            {
+                <div id="item_@cartItem.CartItemId" class="cart_item">
+                    <div class="cart_item_img_box">
+                        <img src="@cartItem.ImageURL"
+                             alt="@cartItem.Name"
+                             class="cart_item_img" />
+                    </div>
+                    <div class="cart_item_nav">
+                        <a style="color: #fff;" asp-controller="Product" asp-action="Details" asp-route-id="@cartItem.ProductId" class="cart_item_title">@cartItem.Name</a>
+                        <h3 class="cart_item_price">@string.Format("{0:C}", cartItem.Price)</h3>
+                        <div class="cart_item_amount">
+                            <a id="minus" data-id="@cartItem.CartItemId" class="cart_item_amount_count">-</a>
+                            <h2 class="cart_item_amount_number">@cartItem.Amount</h2>
+                            <a id="plus" data-id="@cartItem.ProductId" class="cart_item_amount_count">+</a>
+                        </div>
+                    </div>
+                    <a data-id="@cartItem.CartItemId" class="cart_item_delete"></a>
+                </div>
+            }
+        </div>
+    </form>
+}
+else
+{
+    <a asp-controller="Product" asp-action="Index" class="back_btn btn">
+        <img class="back_btn_img" src="~/img/back_icon.svg" alt="Go Back" />
+    </a>
+    <h2 id="no_items" style="opacity: 1">No Items</h2>
+}

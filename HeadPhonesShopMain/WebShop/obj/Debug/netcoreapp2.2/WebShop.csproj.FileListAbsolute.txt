@@ -1,0 +1,212 @@
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.deps.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.dev.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.csprojAssemblyReference.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfoInputs.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfo.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.input.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.output.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorCoreGenerate.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Search.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\ChangePassword.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.csproj.CopyComplete
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop\obj\Debug\netcoreapp2.2\WebShop.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.deps.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.dev.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csprojAssemblyReference.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfoInputs.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfo.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.input.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.output.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorCoreGenerate.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Search.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\ChangePassword.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csproj.CopyComplete
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.deps.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.dev.json
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.dll
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.dll
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.dll
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csprojAssemblyReference.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfoInputs.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfo.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.input.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.output.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorCoreGenerate.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Delete.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Search.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\ChangePassword.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cache
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.Views.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csproj.CopyComplete
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.dll
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.pdb
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
+D:\Users\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\ContactUs.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.deps.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.runtimeconfig.dev.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\bin\Debug\netcoreapp2.2\Webshop.Service.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.AssemblyInfo.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.input.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.TagHelpers.output.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorCoreGenerate.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\ContactUs.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Cart\Index.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Contact\Index.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Product\Search.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Roles\UserList.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\ChangePassword.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Create.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.RazorTargetAssemblyInfo.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.Views.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.csproj.CopyComplete
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop\obj\Debug\netcoreapp2.2\WebShop.pdb

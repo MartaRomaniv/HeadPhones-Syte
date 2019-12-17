@@ -1,0 +1,145 @@
+﻿@model WebShop.ViewModels.Product.ProductIndexModel
+
+@{
+    ViewData["Title"] = "catalog";
+}
+<style>
+    @@font-face {
+        font-family: 'FontAwesome';
+        src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal
+    }
+
+    .glyphicon {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale
+    }
+
+    .glyphicon-chevron-right:before {
+        content: "\f054";
+    }
+
+    .glyphicon-chevron-left:before {
+        content: "\f053";
+    }
+</style>
+<h1 style="font-size: 45px; margin-bottom: 50px;">Available items</h1>
+<h2 style="font-size: 25px; margin-bottom: 5px; margin-top: 5px; ">Here you can find worlds best sellers</h2>
+
+@if (Model.ProductList.Any())
+{
+    @if (User.IsInRole("admin"))
+    {
+        <a asp-action="Create">Create New</a>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            @foreach (var product in Model.ProductList)
+            {
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Price)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@product.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@product.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    }
+    else
+    {
+        <form method="get">
+            <div class="form-inline">
+                @*<label>Name: </label>
+                        <input name="name" value="@Model.FilterViewModel.SelectedName" class="form-control" />
+
+                        <label>Category: </label>
+                        <select name="company" asp-items="Model.FilterViewModel.Companies" class="form-control"></select>
+                        <input type="submit" value="Go!" class=" btn-dark" />
+                        <br />
+                        <br />*@
+                        <label>Sort by: </label>
+                        <a asp-action="Index"
+                           asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+                           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                           asp-route-company="@(Model.FilterViewModel.SelectedCompany)">Name</a>
+                        <a>or</a>
+                        <a asp-action="Index" asp-route-sortOrder="@(Model.SortViewModel.PriceSort)"
+                           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                           asp-route-company="@(Model.FilterViewModel.SelectedCompany)">Price</a>
+                        <br />
+                        <br />
+                    </div>
+                </form>
+                <div class="catalog">
+
+                    @foreach (var product in Model.ProductList)
+                    {
+                        <form method="post">
+                            <a asp-area="" asp-controller="Product" asp-action="Details" asp-route-id="@product.Id" class="catalog_item">
+                                <div class="catalog_item_img_box">
+                                    <img src="@product.ImageURL" alt="@product.Name)"
+                                         class="catalog_item_img" />
+                                </div>
+                                <h2 class="catalog_item_title">@product.Name</h2>
+                                <h3 class="catalog_item_price">@string.Format("{0:C}", product.Price)</h3>
+                                <input type="submit" asp-area="" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.Id" value="buy" class="catalog_item_tocart btn_wide">
+                            </a>
+                        </form>
+                    }
+                </div>
+                <div class="pagination">
+                    @if (Model.PageViewModel.HasPreviousPage)
+                    {
+                        <a asp-action="Index"
+                           asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+                           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                           asp-route-company="@(Model.FilterViewModel.SelectedCompany)"
+                           asp-route-sortorder="@(Model.SortViewModel.Current)"
+                           class="btn btn-outline-dark">
+                            <i class="glyphicon glyphicon-chevron-left"></i>
+                            Back
+                        </a>
+                    }
+                    @if (Model.PageViewModel.HasNextPage)
+                    {
+                        <a asp-action="Index"
+                           asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+                           asp-route-name="@(Model.FilterViewModel.SelectedName)"
+                           asp-route-company="@(Model.FilterViewModel.SelectedCompany)"
+                           asp-route-sortorder="@(Model.SortViewModel.Current)"
+                           class="btn btn-outline-dark">
+                            Next
+                            <i class="glyphicon glyphicon-chevron-right"></i>
+                        </a>
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <h2 id="no_items" style="opacity: 1">No Items</h2>
+        }

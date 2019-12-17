@@ -1,0 +1,30 @@
+﻿@model WebShop.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "registration";
+}
+
+<h1 style="font-size: 45px; margin-bottom: 50px;">Registration</h1>
+
+<form id="login_sign_in" class="" method="post" asp-controller="Account" asp-action="Register" asp-route-returnUrl="@Model.ReturnUrl">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <div class="">
+        <input class="input100" placeholder="Email" asp-for="Email" />
+        <span class="focus-input100" data-placeholder="&#xe818;" asp-validation-for="Email"></span>
+    </div>
+    <div class="" data-validate="Enter username">
+        <input class="input100" placeholder="User name" asp-for="UserName">
+        <span class="focus-input100" data-placeholder="&#xe82a;" asp-validation-for="UserName"></span>
+    </div>
+
+    <div class="" data-validate="Enter password">
+        <input class="input100" placeholder="Password" asp-for="Password">
+        <span class="focus-input100" data-placeholder="&#xe80f;" asp-validation-for="Password"></span>
+    </div>
+    <div style="align-self: center;" class="">
+        <button class="btn">
+            Create An Account
+        </button>
+    </div>
+</form>

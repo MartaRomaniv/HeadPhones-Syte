@@ -1,0 +1,78 @@
+﻿@model WebShop.ViewModels.Product.SearchIndexModel
+
+@{
+    ViewData["Title"] = Model.SearchQuery;
+}
+
+<h1 style="font-size: 45px; margin-bottom: 50px;">Search Results for - '@Model.SearchQuery'</h1>
+
+@if (Model.ProductList.Any())
+{
+    @if (User.IsInRole("admin"))
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            @foreach (var product in Model.ProductList)
+            {
+                <tbody>
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => product.Price)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@product.Id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@product.Id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            }
+        </table>
+    }
+    else
+    {
+        <a asp-controller="Product" asp-action="Index" class="back_btn btn">
+            <img class="back_btn_img" src="~/img/back_icon.svg" alt="Go Back" />
+        </a>
+
+        <div class="catalog search_results">
+            @foreach (var product in Model.ProductList)
+            {
+                <form method="post">
+                    <a asp-area="" asp-controller="Product" asp-action="Details" asp-route-id="@product.Id" class="catalog_item">
+                        <div class="catalog_item_img_box">
+                            <img src="@product.ImageURL" alt="@product.Name)"
+                                 class="catalog_item_img" />
+                        </div>
+                        <h2 class="catalog_item_title">@product.Name</h2>
+                        <h3 class="catalog_item_price">@string.Format("{0:C}", product.Price)</h3>
+                        <input type="submit" asp-area="" asp-controller="Cart" asp-action="AddToCart" asp-route-id="@product.Id" value="buy" class="catalog_item_tocart btn_wide">
+                    </a>
+                    <input type="hidden" asp-for="@product.Id" name="id" />
+                    <input type="hidden" asp-for="@product.Name" name="name" />
+                    <input type="hidden" asp-for="@product.ImageURL" name="imageURL" />
+                    <input type="hidden" asp-for="@product.Price" name="price" />
+                </form>
+            }
+        </div>
+    }
+}
+else
+{
+    <div id="no_results">
+        No Results Found
+    </div>
+}

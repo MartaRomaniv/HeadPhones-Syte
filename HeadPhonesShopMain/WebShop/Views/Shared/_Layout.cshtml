@@ -1,0 +1,117 @@
+﻿@*@model WebShop.ViewModels.Product.PageIndexModel*@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Headphones @ViewData["Title"]</title>
+
+    @*<environment include="Development"><input id="Submit1" type="submit" value="submit" /><input id="Text1" type="text" /><input id="File1" type="file" /><table style="width:100%;"><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img src="" alt="" />
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        </environment>
+        <environment exclude="Development">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+                asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+                crossorigin="anonymous"
+                integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" />
+        </environment>*@
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="nav">
+                <a asp-area="" asp-controller="Product" asp-action="Index" class="logo">Headphones For you</a>
+                <a asp-area="" asp-controller="Contact" asp-action="Index" id="contact_btn" class="btn">
+                    Contact us
+                </a>
+                <form class="search" method="get">
+                    <input type="text"
+                           name="SearchQuery"
+                           class="search_box"
+                           placeholder="Type to Search" />
+                    <a class="search_reset"></a>
+                    <input asp-controller="Product" asp-action="Search" type="submit" id="searchBtn" class="search_btn btn" value="">
+                </form>
+
+                @if (User.IsInRole("admin"))
+                {
+            <div class="admin_layout">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Index">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Roles" asp-action="Index">Role</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Users</a>
+                </li>
+            </div>
+                    <form method="post" asp-controller="Account" asp-action="LogOff" id="log_off_form">
+                        <input type="submit" value="" id="log_off" class="btn" />
+                    </form>
+
+                }
+                else if (User.Identity.IsAuthenticated)
+                {
+                    <form method="post" asp-controller="Account" asp-action="LogOff" id="log_off_form">
+                        <input type="submit" value="" id="log_off" class="btn" />
+                    </form>
+                }
+                else
+                {
+                    <a asp-area="" asp-controller="Account" asp-action="Login" id="log_in" class="btn">
+                        <img src="~/img/log_in_icon.svg" alt="Alternate Text" />
+                    </a>
+                }
+                <a asp-area="" asp-controller="Cart" asp-action="Index" id="cartBtn" class="btn">
+                    <img class="icon" src="~/img/cart_icon.svg" alt="Cart" />
+                    @*<span id="cartLength">4</span>*@
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" id="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <div class="container">
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*<footer style="text-align: center; background-color: #000; padding: 15px;" class="border-top footer text-muted">
+            <div class="container">
+                <h1 style="color: #FFF; text-transform:lowercase; font-size: 20px;">&copy; .shopissimo. All Rights Reserved </h1>
+            </div>
+        </footer>*@
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        @*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>*@
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        @*<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha256-E/V4cWE4qvAeO5MOhjtGtqDzPndRO1LBk8lJ/PR7CA4=">
+            </script>*@
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

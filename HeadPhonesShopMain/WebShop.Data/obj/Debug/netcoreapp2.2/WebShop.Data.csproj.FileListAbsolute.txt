@@ -1,0 +1,30 @@
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.deps.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.dev.json
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csprojAssemblyReference.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfoInputs.cache
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfo.cs
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Andriy Shkrobut\Desktop\shopissimo_on_asp\EpamProject\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.deps.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.dev.json
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csprojAssemblyReference.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfoInputs.cache
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfo.cs
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\Victor\Desktop\shopissimo_on_asp\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.deps.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.runtimeconfig.dev.json
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\bin\Debug\netcoreapp2.2\WebShop.Data.pdb
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.AssemblyInfo.cs
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.dll
+C:\Users\HP\Desktop\MyWebProject2\MyWebProject2\WebShop.Data\obj\Debug\netcoreapp2.2\WebShop.Data.pdb
